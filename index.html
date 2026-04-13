@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Weather App</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="title" > 
+      <img src="assets/weather.png" alt="Weather Icon" class="weather-icon" />
+      Weather Forecast
+    <img src="assets/weather.png" alt="Weather Icon" class="weather-icon" />
+    </h1>
+    
+    <div class="search-box">
+      <input type="text" id="cityInput" placeholder="Enter city..." />
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <div id="cardContainer" class="card-container"></div>
+  </div>
+
+  <script type="module" src="Content/app.js"></script>
+</body>
+</html>
