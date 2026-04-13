@@ -1,7 +1,7 @@
 ## 🌦️ Weather App
 I created this weather application to practice clean coding and build reusable components using simple JavaScript. The app has a clean and minimal interface with a light color combination to keep it visually simple and user-friendly. It is mainly designed for use in India, so I have set the Indian time zone as the default. By default, it shows weather for Delhi and Kolkata, and users can easily add or remove other cities as per their need.
 ---
-Live link:
+Live link:https://weather-forecast-xi-five.vercel.app/
 ---
 
 ## 🚀 Features
